@@ -1,0 +1,245 @@
+body{
+  background-color: rgb(45, 43, 43);
+}
+
+*{
+  margin: 0;
+}
+
+.App{
+  box-shadow: 2px 1px 10px 3px blueviolet;
+  width: fit-content;
+  margin: 1rem auto;
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 1rem auto;
+}
+  
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head{
+  background-color: white;
+  padding: 0rem 0.2rem;
+  width: 70vw;
+
+}
+
+.avatar{
+  max-width: 2rem;
+}
+
+.main{
+  width: 70vw;
+  height: 18rem;
+  padding: 0.5rem;
+}
+
+.feature-list{
+  display: flex;
+  align-items:flex-start;
+  justify-content:flex-start;
+  position: relative;
+  background-size: cover;
+}
+
+.list{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 30vw;
+  height: 2rem;
+  padding-inline-start: 0;
+  padding: 0rem 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 3rem;
+
+}
+
+.list-items{
+  padding: 0rem 0.5rem ;
+  border-right: 1px solid black;
+}
+
+.price-details{
+  height: 13.5rem;
+  width: 12.6rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  bottom: 12.6rem;
+  right: 40rem;
+}
+
+.mt1{
+  margin-top: 0.5rem;
+}
+
+.outline-btn{
+  padding: 0.3rem 2rem;
+  margin-top: 0.5rem;
+}
+
+.modify-btn{
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.quantity{
+  margin: 0rem 1rem;
+}
+
+.cta-btn{
+  position: relative;
+  top: 1.1rem;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.icon-badge{
+  position: relative;
+  max-width: 3rem;
+  top: 8rem;
+  right: 14rem;
+  z-index: 1;
+}
+
+.font-small{
+  font-size: 0.8rem;
+}
+
+.image-section{
+  width: 60vw;
+  height: 15rem;
+  background-color: white;
+}
+
+.images{
+  max-width: 10.5rem;
+
+}
+
+.image{
+  max-width: 22rem;
+  position: relative;
+  left: 2rem;
+}
+
+.wrap{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  left: 2rem;
+  margin-right: 2rem;
+}
+
+.ml1{
+  margin-left: 0.2rem;
+}
+
+.mt{
+  margin-top: 0.5rem;
+}
+
+.icon-badge2{
+  position: absolute;
+  right: 47rem;
+  z-index: 1;
+  top: 27rem;
+  background-color: white;
+  border-radius: 50%;
+  width:6rem;
+  height: 6rem;
+  padding-left: 1.7rem;
+  padding-top: 1.4rem;
+}
+
+.badge2 , .badge3{
+  width:2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  padding-top: 0.6rem;
+  font-weight: bolder;
+}
+
+.badge2{
+  background-color: red;
+}
+
+.badge3{
+  background-color: yellowgreen;
+  position: relative;
+  bottom: 0.5rem;
+  left: 0.8rem;
+}
+
+.address{
+  width: 55vw;
+  margin-top: 1rem;
+}
+
+.location-img{
+  max-width: 6rem;
+}
+
+.font-smaller{
+  font-size: 0.7rem;
+}
+
+.space{
+  width: 55vw ;
+  margin-bottom: 1rem;
+}
+
+.facilities{
+  margin-right: 0.8rem;
+}
+
+.info{
+  width: 55vw;
+  line-height: 1rem;
+}
+
+.hr {
+  display: inline-block;
+  width: 80%;
+  border-top: 0.2px solid black;
+  margin: 2rem ;
+}
+
+.start{
+  margin-left: 8rem;
+}
+
+.start1{
+  margin-left: 10rem;
+}
+
+.rules{
+  display: flex;
+}
+
+.mb1{
+  margin-bottom: 1rem;
+}
+
+.mr1{
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
+}
